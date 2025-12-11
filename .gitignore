@@ -1,0 +1,95 @@
+# ----------------------------------------
+# OS Files
+# ----------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ----------------------------------------
+# Editors & IDEs
+# ----------------------------------------
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# ----------------------------------------
+# SQL Server / Database Artifacts
+# ----------------------------------------
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+*.sqlproj
+*.dbmdl
+
+# Local environment variables
+.env
+*.env
+
+# ----------------------------------------
+# Data Files (raw or large)
+# ----------------------------------------
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.zip
+
+# Allow small sample data files if needed
+!data/sample_*.csv
+
+# ----------------------------------------
+# Tableau
+# ----------------------------------------
+# Tableau temp + backup files
+*.twbak
+*.hyper
+*.tds
+*.tdsx
+*.tde
+
+# Large packaged workbooks
+tableau/*.twbx
+
+# ----------------------------------------
+# Python or R (if used for preprocessing)
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Rhistory
+.RData
+
+# ----------------------------------------
+# Logs & temp files
+# ----------------------------------------
+*.log
+*.tmp
+*.temp
+*.cache
+.cache/
+logs/
+
+# Node modules (if repo uses a frontend landing page)
+node_modules/
+
+# ----------------------------------------
+# Images
+# ----------------------------------------
+# Keep only curated images; ignore raw exports
+images/raw/
