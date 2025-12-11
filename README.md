@@ -23,6 +23,8 @@ A Tableau Public dashboard is included for interactive exploration.
 
 ### Tableau
 - `tableau/covid_dashboard.twbx`
+- [View the interactive Tableau Public dashboard](https://public.tableau.com/views/Covid19Dashboard_17650778797350/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 ## Techniques Used
 
@@ -59,7 +61,6 @@ Identifies top countries by new daily cases using `RANK()`.
 │   └── covid_vaccinations.csv 
 ├── tableau/
 │   ├── covid_dashboard.twbx
-│   └── public_link.txt
 ├── images/
     └── dashboard_preview.png
 ├── gitignore.
